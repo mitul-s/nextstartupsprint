@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  max-height: 100vh;
+  background-color: #141414;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  width: 90%;
+  height: 15px;
+  padding-left: 20px;
+  border: 0px;
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  background-color: lightseagreen;
+  transition: 0.5s all;
+  outline: none;
+  height: 30px;
+  width: 100px;
+}
+
+.btn:active {
+  color: lightseagreen;
+  background-color: #fff;
+  border: 2px solid lightseagreen;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.central-input {
+  border: 1px solid transparent !important;
+  background-color: grey !important;
+  color: white;
+  margin-bottom: 0px !important;
+}
+
+.central-input::placeholder {
+  color: lightgray;
+}
+
+.home {
+  background-image: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.6)), url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#booking {
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.open-slide {
+  position: fixed;
+  color: lightseagreen;
+  margin: 25px;
+  transition: 0.5s all;
+}
+
+.open-slide:hover {
+  color: #fff;
+}
+
+.open-slide a:hover {
+  cursor: pointer;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s all;
+}
+
+.side-nav a {
+  display: block;
+  transition: 0.5s all;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  color: lightseagreen;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.side-profile {
+  text-align: center;
+  align-items: center;
+  display: block;
+  padding: 0px 10px;
+}
+
+.side-profile hr {
+  margin-top: 110px;
+}
+
+.side-profile p {
+  font-size: 14px;
+  text-align: left;
+}
+
+.side-profile-img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.main {
+  transition: margin-left 0.5s;
+  overflow: hidden;
+  width: 100%;
+}
+
+#content {
+  background-image: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.6)), url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bottom-bar {
+  border-top: 0px solid black;
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.15);
+  -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.15);
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.15);
+}
+
+.booking-input {
+  padding: 20px 0px;
+  background-color: #ACACAC;
+  border-radius: 3px;
+  margin-top: 10px;
+  height: auto;
+}
+
+.booking-input input {
+  background-color: transparent;
+  color: #fff;
+}
+
+.booking-input input::placeholder {
+  color: whitesmoke;
+}
+
+.booking-submit {
+  padding: 10px;
+}
+
+.booking-submit .btn-submit {
+  float: right;
+}
+
+.booking-hr {
+  height: 1px;
+  background-color: #fff;
+  border: 0px solid white;
+  width: 90%;
+}
+
+.cityName {
+  top: 100;
+  text-align: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Tag</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/a626fd4fda.css">
+    <link href="styles/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <span class="open-slide">
+      <a onclick="openSlideMenu()">
+        <span class="fa fa-bars fa-2x"></span>
+      </a>
+    </span>
+
+    <div id="side-menu" class="side-nav">
+      <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <div class="side-profile">
+        <img src="http://newiyc.weareonyxmedia.com/wp-content/uploads/2016/12/030414_Headshots_Circle_Lowell.png" class="side-profile-img"/>
+        <h4>John Doe</h4>
+        <h5>Score: 4.9/5</h5>
+
+        <a href="#"><span class="fa fa-user"></span> Profile</a>
+        <a href="#"><span class="fa fa-list-alt"></span> Listings</a>
+        <a href="#"><span class="fa fa-money"></span> Payment</a>
+
+        <hr/>
+        <p>Settings</p>
+        <p>Help</p>
+        <p>Terms & Services</p>
+      </div>
+    </div>
+
+    <div class="main">
+      <section id="booking">
+      </section>
+        <div class="bottom-bar">
+          <div class="container">
+            <div class="booking-input">
+              <input type="text" placeholder="From where?" />
+              <hr class="booking-hr"/>
+              <input type="text" placeholder="To where?" />
+            </div>
+            <div class="booking-submit">
+                <p>CAD <span class="fa fa-angle-down"></span> <button class="btn btn-submit">Submit</button></p>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
